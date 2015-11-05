@@ -1,16 +1,42 @@
 body {
-    background: #000;
+    background: url(../img/fire.jpg) ;
 }
 
 h1 {
-font-family: 'Metal Mania', cursive;
-font-size: 6em;
-margin: 0;
-text-align: right;
-padding-right: 30px;
-color: brown;
+    font-family: 'Metal Mania', cursive;
+    font-size: 6em;
+    margin: 0;
+    padding-right: 30px;
+    color: brown;
+    display:inline;
+    float: right;
+}
+
+h2 {
+    color: white;
+    font-size: 4em;
+    font-family: 'Metal Mania', cursive;
+}
+
+a {
+    text-decoration: none;
+    color:darkorange
 }
 
 nav {
-    
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+img {
+    border-radius: 20px;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
 }
